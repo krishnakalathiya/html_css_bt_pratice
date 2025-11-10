@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #f57676;
+    color: #130101;
+    padding: 10px 0;
+}
+
+#logo {
+    float: left;
+    font-size: 1.5em;
+}
+
+nav {
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #f10707;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #3f0303;
+    margin: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        background-color: #ec6565;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="logo">ABC</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
