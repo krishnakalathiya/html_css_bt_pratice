@@ -1,0 +1,46 @@
+.col{
+  background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
+
+.container{
+  max-width: 1320px;
+  text-align: center;
+}
+
+.col-2{
+    background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
+
+.col-3{
+    background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
+.col-4{
+   background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px; 
+}
+
+.col-6{
+    background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
+
+.col-12{
+   background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px; 
+}
+

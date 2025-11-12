@@ -1,0 +1,37 @@
+.col{
+  background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
+
+.container{
+  max-width: 1320px;
+}
+
+.row{
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.col-2{
+  background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
+
+.col-10{
+  background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
+
+.col-6{
+  background-color: blueviolet;
+  color: aliceblue; 
+  border: 2px solid white;
+  height: 60px;
+}
