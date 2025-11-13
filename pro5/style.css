@@ -1,0 +1,16 @@
+ .container {
+     max-width: 960px;
+    }
+    
+    .bd-callout-info{
+        border-left-color: #5bc0de;
+    }
+      
+    .bg-primary-custom {
+       background-color: #007bff; 
+     }
+       
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #80bdff;
+     }
