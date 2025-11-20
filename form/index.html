@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Job Application Form</h2>
+        <hr class="border border-dark border-2 opacity-50">
+        <div class="form-text">
+            Thank you for your interest in working with us.Please check below for available job opportunities that meet your
+            criteria and send your application by filling out the job Application Form.
+        </div>
+            <label class="form-label">Name</label>
+            <div class="row g-3 mb-4">
+                <div class="col-6">
+                    <input type="text" class="form-control" id="" placeholder="First">
+                </div>
+
+                <div class="col-6">
+                     <input type="text" class="form-control" id="" placeholder="last">
+                </div>
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-12">
+                    <label class="form-label">Email</label>
+                     <input type="email" class="form-control" id="" placeholder="john.deo@example.com">
+                </div>
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-6">
+                    <label class="form-label">what position are you applying for?</label>
+                    <select class="form-select">
+                        <option>-Select-</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                </div>
+                <div class="col-6">
+                    <label class="form-label">Available date</label>
+                    <input type="date" class="form-control">
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">What is your current employee status?</label>
+                <div class="radio-grid mt-1 d-flex row px-4">
+                    <div class="form-check col-6">
+                        <input class="form-check-input" type="radio" name="employeeStatus">
+                        <label class="form-check-label">
+                            Employed
+                        </label>
+                    </div>
+
+                    <div class="form-check col-6">
+                        <input class="form-check-input" type="radio" name="employeeStatus" id="statusSelfEmployed" value="self-employed">
+                        <label class="form-check-label" for="statusSelfEmployed">
+                            Self-Employed
+                        </label>
+                    </div>
+
+                    <div class="form-check col-6">
+                        <input class="form-check-input" type="radio" name="employeeStatus" id="statusUnemployed" value="unemployed">
+                        <label class="form-check-label" for="statusUnemployed">
+                            Unemployed
+                        </label>
+                    </div>
+
+                    <div class="form-check col-6  ">
+                        <input class="form-check-input" type="radio" name="employeeStatus" id="statusStudent" value="student">
+                        <label class="form-check-label" for="statusStudent">
+                            Student
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <label class="form-label">Do you have referance?(optional)</label>
+             <div class="row g-3 mb-4">
+                <div class="col-6">
+                    <input type="text" class="form-control" id="" placeholder="First">
+                </div>
+
+                <div class="col-6">
+                     <input type="text" class="form-control" id="" placeholder="last">
+                </div>
+             </div>
+            </div>
+
+            <div>
+                <label class="form-label">Referance Email</label>
+                 <input type="email" class="form-control" id="" placeholder="john.deo@example.com">
+            </div>
+
+            <div>
+                <div class="row mt-3">
+                    <div class="col-1">
+                        <button type="reset" class="btn btn-outline-dark">Reset</button>
+                    </div>
+
+                    <div class="col-1">
+                        <button type="submit" class="btn btn-dark">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+</html>
